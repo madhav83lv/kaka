@@ -15,7 +15,7 @@ phases:
             - printenv
             - echo "Start the installation process"
             - echo "Installation Process Completed"
-            - echo "Hello $name"
+            - echo "Hello $name, lets start $sme"
             - echo "My Codebuid Id is $CODEBUILD_BUILD_ID"
             - echo "AWS Region is $AWS_REGION"
     pre_build:
